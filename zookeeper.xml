@@ -9,6 +9,6 @@
     </zookeeper>
 
     <distributed_ddl>
-	<path>/clickhouse/cluster_demo_ash/task_queue/ddl</path>
+	<path>/clickhouse/cluster_test/task_queue/ddl</path>
     </distributed_ddl>
 </yandex>
