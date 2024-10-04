@@ -28,6 +28,11 @@
                <hostname>clickhouse03</hostname>
                <port>9444</port>
             </server>
+            <server>
+               <id>4</id>
+               <hostname>clickhouse04</hostname>
+               <port>9444</port>
+            </server>
         </raft_configuration>
 
     </keeper_server>
