@@ -95,8 +95,8 @@ services:
       - ./keeper_3.xml:/etc/clickhouse-server/config.d/keeper.xml
   clickhouse04:
     image: clickhouse/clickhouse-server:23.5.2.7-alpine
-    hostname: clickhouse03
-    container_name: clickhouse03
+    hostname: clickhouse04
+    container_name: clickhouse04
     ports:
       - 9004:9000
       - 8127:8123
