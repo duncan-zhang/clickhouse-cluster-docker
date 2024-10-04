@@ -1,6 +1,6 @@
 <yandex>
     <remote_servers>
-        <cluster_demo_ash>
+        <cluster_test>
             <shard>
                 <replica>
                     <host>clickhouse01</host>
@@ -13,6 +13,18 @@
                     <port>9000</port>
 	    	</replica>
             </shard>
-        </cluster_demo_ash>
+	    <shard>
+                <replica>
+                    <host>clickhouse03</host>
+                    <port>9000</port>
+	    	</replica>
+            </shard>
+            <shard>
+                <replica>
+                    <host>clickhouse04</host>
+                    <port>9000</port>
+	    	</replica>
+            </shard>
+        </cluster_test>
     </remote_servers>
 </yandex>
